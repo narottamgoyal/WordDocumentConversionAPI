@@ -1,16 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using DocumentFormat.OpenXml.Packaging;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using OpenXmlPowerTools;
+using System;
 using System.Drawing.Imaging;
 using System.IO;
 using System.IO.Packaging;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using DocumentFormat.OpenXml.Packaging;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using OpenXmlPowerTools;
 
 namespace WordDocumentConversionAPI.Controllers
 {
