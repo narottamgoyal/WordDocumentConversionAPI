@@ -25,7 +25,7 @@ namespace WordDocumentConversionAPI
 
             services.AddSwaggerGen(c =>
             {
-                //   c.IncludeXmlComments(@"WordDocumentConversionAPI.xml");
+                c.IncludeXmlComments(@"WordDocumentConversionAPI.xml");
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = System.Reflection.Assembly.GetExecutingAssembly().GetName().Name, Version = "v1" });
             });
 
